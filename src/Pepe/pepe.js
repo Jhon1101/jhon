@@ -1,3 +1,3 @@
 
 let number = 8
-console.log(number )
+console.log(number + 2)
