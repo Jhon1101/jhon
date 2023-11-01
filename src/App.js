@@ -1,15 +1,8 @@
-import sena from './logos.png';
-import './App.css';
+import { render, screen } from '@testing-library/react';
+import App from './App';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={sena} className="App-logo" alt="logo" />
-        hola mundo
-      </header>
-    </div>
-  );
-}
-
-export default App;
+test('renders learn react link', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
+});

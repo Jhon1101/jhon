@@ -1,12 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import Contador from './Contador';
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <Contador/>
-  </React.StrictMode>
-);
+import List from "./list/list";
+function index() {
+  
+  return (
+    <div className="App">
+      <List />
+    </div>
+  );
+}
 
-
+export default index;
