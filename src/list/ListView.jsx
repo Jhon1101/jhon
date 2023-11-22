@@ -1,11 +1,12 @@
-function ListView({elements}){
+import React from 'react';
 
-return(
-<div>
-    {
-        [<p>Un parrafo</p>,  <p>Dos parrafo</p>]
-    }
-</div>
+function ListView({ elements }) {
+return (
+    <div>
+    {elements.map((element, index) => (
+        <p key={index}>{element}</p>
+    ))}
+    </div>
 );
 }
 

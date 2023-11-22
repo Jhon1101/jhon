@@ -1,11 +1,5 @@
-import List from "./list/list";
-function index() {
-  
-  return (
-    <div className="App">
-      <List />
-    </div>
-  );
-}
-
-export default index;
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Header from './componentes/header/Header';
+import App from './App';
+const root =  ReactDOM.render(<App />, document.getElementById('root'));

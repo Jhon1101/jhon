@@ -1,11 +1,11 @@
-let  herramientas = [
+let herramientas = [
     'React',
     'Angular',
     'Vue',
     'Svelte',
     'Ember',
     'Backbone',
-    'Polymer,',
+    'Polymer',
     'Aurelia',
     'Metear',
     'Knockout',
@@ -14,4 +14,4 @@ let  herramientas = [
     'Elm',
     'Preact'
 ];
-export default herramientas
+export default herramientas;
